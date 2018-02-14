@@ -13,7 +13,7 @@ This code should probably support audio files that long, but also it might break
 1. In the Credentials section of your Google Cloud Platform project, create a Service Account Key (JSON version)
 1. Place the JSON file in the same folder as this code and rename it to `googlecredentials.json`
 1. Install the required packages using `pip install -r requirements.txt`
-1. You'll also need to install ffmpeg and set up a Google Cloud Storage bucket (these instructions TODO)
+1. You'll also need to install ffmpeg and set up a Google Cloud Storage bucket (these instructions TODO. For now the way to set the right bucket is changing the `bucket_name` variable in line 12 of `speechrec.py` to the name of your bucket.)
 
 ## Usage:
 From the command line, run `python speechrec.py -i <path_to_input_file> -l <language_code>`. Make sure the input file is a .wav audio file. Use [this list](https://cloud.google.com/speech/docs/languages) to find the right code for your language. For quick reference:
