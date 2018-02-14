@@ -17,8 +17,11 @@ From the command line, run `python speechrec.py -i <path_to_input_file> -l <lang
 * English (UK): en_UK
 * Dutch: nl_NL
 * French (France): fr_FR
-* Etc.
+* Etc...
 
 ## TODO:
- * support for other audio files
- * a web based version for this
+ * Clean up and refactor code
+ * Add a check if file is supported
+ * Add upport for other audio files
+ * Someday create a web based version of this
+ * Etc...
