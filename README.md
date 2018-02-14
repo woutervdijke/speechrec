@@ -6,7 +6,7 @@ This script uses the Google Cloud Speech API to perform simple speech transcript
 
 ### Cheaaap audio transcriptions!
 The Google Cloud Speech API is free to use for [up to 60 minutes of audio per month](https://cloud.google.com/speech/pricing). After those 60 minutes, it costs $0.006 USD per 15 seconds of audio. That's 2.4 cents per minute, rounded up to the next 15 seconds. That's just $1.44 for an hour of audio. 
-This code should probably support audio files that long, but also it might break, so let me know when that happens. Feel free to submit emails or [tweet at me](http://www.twitter.com/woutervd).
+This code should probably support audio files that long, but also it might break, so let me know when that happens. Or when something else weird happens. Or if you want to help me improve my code. Feel free to submit issues or [tweet at me](http://www.twitter.com/woutervd).
 ## Set up:
 1. You'll need to register with [Google Cloud Platform](https://console.cloud.google.com) and create a project
 1. In the project, enable the Google Cloud Speech API
